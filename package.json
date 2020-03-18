@@ -1,0 +1,30 @@
+{
+  "name": "crud-login",
+  "version": "1.0.0",
+  "description": "basic crud, registration, login",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crud",
+    "registation",
+    "login"
+  ],
+  "author": "ajith",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "express-handlebars": "^3.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.20.11",
+    "node-input-validator": "^4.2.0",
+    "nodemailer": "^6.4.5",
+    "nodemailer-express-handlebars": "^3.1.0",
+    "nodemailer-plugin-inline-base64": "^2.1.1",
+    "pg": "^7.18.2"
+  },
+  "devDependencies": {
+    "uuid": "^7.0.2"
+  }
+}
